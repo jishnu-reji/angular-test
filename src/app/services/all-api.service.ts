@@ -7,7 +7,7 @@ import { userModel } from '../users.model';
 })
 export class AllAPIService {
 
-  server_url="http://localhost:3000"
+  server_url="https://angular-test-server.onrender.com"
   constructor(private http:HttpClient) { }
 
   saveUserAPI(user:userModel){
